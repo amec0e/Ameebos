@@ -1,0 +1,4 @@
+Hammer_Slam_Bowser:0005FF00023A0702
+Turbo_Charge_Donkey_Kong:0008FF00023B0702
+Dark_Hammer_Slam_Bowser:0005FF00023A0702
+Dark_Turbo_Charge_Donkey_Kong:0008FF00023B0702

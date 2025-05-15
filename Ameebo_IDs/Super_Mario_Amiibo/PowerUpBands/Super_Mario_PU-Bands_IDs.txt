@@ -1,0 +1,9 @@
+Mario_Power-Up_Band:00000003039BFF02
+Luigi_Power-Up_Band:00010003039CFF02
+Peach_Power-Up_Band:00020003039DFF02
+Daisy_Power-Up_Band:00130003039EFF02
+Toad_Power-Up_Band:000A000303A0FF02
+Yoshi_Power-Up_Band:00030003039FFF02
+Golden_Power-Up_Band:000000030430FF02
+Donkey_Kong_Power-Up_Band:000800030431ff02
+Diddy_Kong_Power-Up_Band:000900030432ff02

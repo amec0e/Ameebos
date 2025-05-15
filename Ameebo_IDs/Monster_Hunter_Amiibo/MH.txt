@@ -1,0 +1,6 @@
+One-Eyed_Rathalos_and_Rider_Male:3500010002E10F02
+One-Eyed_Rathalos_and_Rider_Female:3500020002E20F02
+Nabiru:3501000002E30F02
+Rathian_and_Cheval:3502010002E40F02
+Barioth_and_Ayuria:3503010002E50F02
+Qurupeco_and_Dan:3504010002E60F02

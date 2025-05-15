@@ -1,0 +1,3 @@
+Malzeno:350B0000042D1802
+Palamute_Canyne_Malzeno_X:350A0100042C1802
+Palico_Felyne_Malzeno_X:35090100042B1802
