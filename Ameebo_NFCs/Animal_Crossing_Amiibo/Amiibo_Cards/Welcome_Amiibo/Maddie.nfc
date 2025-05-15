@@ -1,14 +1,15 @@
 Filetype: Flipper NFC device
-Version: 3
-# Nfc device type can be UID, Mifare Ultralight, Mifare Classic or ISO15693
-Device type: NTAG215
+Version: 4
+# Device type can be ISO14443-3A, ISO14443-3B, ISO14443-4A, ISO14443-4B, ISO15693-3, FeliCa, NTAG/Ultralight, Mifare Classic, Mifare Plus, Mifare DESFire, SLIX, ST25TB, EMV
+Device type: NTAG/Ultralight
 # UID is common for all formats
-UID: 04 C0 AA A9 F2 B3 88
-# ISO14443 specific fields
-ATQA: 00 44
+UID: 04 02 96 A2 F2 05 DE
+# ISO14443-3A specific data
+ATQA: 44 00
 SAK: 00
-# Mifare Ultralight specific data
-Data format version: 1
+# NTAG/Ultralight specific data
+Data format version: 2
+NTAG/Ultralight type: NTAG215
 Signature: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 Mifare version: 00 04 04 02 01 00 11 03
 Counter 0: 0
@@ -19,27 +20,27 @@ Counter 2: 0
 Tearing 2: 00
 Pages total: 135
 Pages read: 135
-Page 0: 04 C0 AA E6
-Page 1: A9 F2 B3 88
-Page 2: 60 48 0F E0
+Page 0: 04 02 96 18
+Page 1: A2 F2 05 DE
+Page 2: 8B 48 0F E0
 Page 3: F1 10 FF EE
 Page 4: A5 00 00 00
-Page 5: 78 40 78 49
-Page 6: 72 F7 08 B4
-Page 7: 30 18 71 C7
-Page 8: E1 16 8C 9D
-Page 9: 3F DE CF A0
-Page 10: AE 74 85 EF
-Page 11: 0E 1A 38 40
-Page 12: A7 E8 2F 64
-Page 13: F6 81 62 D0
-Page 14: CF 92 23 51
-Page 15: FC 7D 1F B6
-Page 16: F7 D3 E2 BE
-Page 17: A9 26 17 5C
-Page 18: C1 71 7D BE
-Page 19: 07 3F FF F3
-Page 20: 91 AC 48 FC
+Page 5: 3E B3 A0 B7
+Page 6: 12 84 97 9E
+Page 7: EC 0E 6C 02
+Page 8: 98 96 8A 87
+Page 9: CE 69 E7 1A
+Page 10: 48 31 61 9C
+Page 11: D0 4C 46 FB
+Page 12: 6B 32 B2 EC
+Page 13: 61 B3 94 60
+Page 14: 59 01 43 7C
+Page 15: 1C 9D 78 CC
+Page 16: 9A 0D 86 38
+Page 17: E7 12 2C 12
+Page 18: 2E 93 AC FB
+Page 19: 8F DE 00 2E
+Page 20: 9B 04 AA C3
 Page 21: 02 F3 00 01
 Page 22: 02 F9 05 02
 Page 23: 00 00 00 00
@@ -51,107 +52,107 @@ Page 28: 00 00 00 00
 Page 29: 00 00 00 00
 Page 30: 00 00 00 00
 Page 31: 00 00 00 00
-Page 32: 90 B8 67 F1
-Page 33: 3C AE 3A 57
-Page 34: 6D B4 9F D5
-Page 35: AB D9 06 00
-Page 36: B8 74 3F 80
-Page 37: 84 9F FF 46
-Page 38: BB 61 60 09
-Page 39: A3 C6 27 07
-Page 40: 9E 5E 02 80
-Page 41: 42 75 E6 82
-Page 42: 77 AC 14 86
-Page 43: 3B 31 9A D1
-Page 44: FA 35 13 CA
-Page 45: 5A 81 E7 45
-Page 46: 08 A4 6E F2
-Page 47: DE 18 C1 21
-Page 48: DF 73 22 22
-Page 49: B3 A9 6B 78
-Page 50: 7F 68 1A C8
-Page 51: A4 75 2C C0
-Page 52: FA 33 8A 70
-Page 53: 97 27 63 CA
-Page 54: 6C 22 62 29
-Page 55: 9E DA 60 63
-Page 56: EA E5 EB 41
-Page 57: 5E 46 27 AB
-Page 58: C8 D7 6D 21
-Page 59: 78 02 92 E0
-Page 60: BD C9 11 BD
-Page 61: 8A E8 C7 2C
-Page 62: 67 55 E1 C1
-Page 63: B5 9D ED D7
-Page 64: 9F 47 D3 2A
-Page 65: DD 74 70 37
-Page 66: EE A6 52 A2
-Page 67: 7F 18 4B BD
-Page 68: EF 94 E1 22
-Page 69: 05 87 47 17
-Page 70: 56 61 42 DF
-Page 71: 4F D1 2A B9
-Page 72: D7 2E E3 60
-Page 73: EC E1 A2 B1
-Page 74: 3D 95 A7 E5
-Page 75: E9 E5 0D 97
-Page 76: CD D2 A0 F3
-Page 77: 4C E4 34 D7
-Page 78: EE EF 4A FE
-Page 79: DF 2F 79 84
-Page 80: AE 44 44 E4
-Page 81: 91 EA F3 8E
-Page 82: 4F 34 BD 92
-Page 83: F4 48 C4 A1
-Page 84: 43 A5 14 1D
-Page 85: AF 69 5C C5
-Page 86: 5F BC 05 1A
-Page 87: CC 06 5E 6F
-Page 88: 59 0A 0D FC
-Page 89: A5 83 A2 04
-Page 90: 00 C3 09 9F
-Page 91: 7E 93 04 34
-Page 92: 2B D6 D5 11
-Page 93: AF 18 0B B8
-Page 94: F6 DB 05 B9
-Page 95: 56 33 F6 9F
-Page 96: D2 22 54 B6
-Page 97: CE 9F 97 E0
-Page 98: DD E9 CC DF
-Page 99: 14 A2 3D A2
-Page 100: FC 66 68 B0
-Page 101: 63 C1 08 18
-Page 102: 36 24 2A C6
-Page 103: 55 3C 66 94
-Page 104: 07 17 EC 3F
-Page 105: 24 5B E2 94
-Page 106: BB DD 0F 63
-Page 107: D7 AA 83 9F
-Page 108: 74 06 2E 8A
-Page 109: 71 F8 27 C3
-Page 110: CB D9 50 63
-Page 111: CD 18 3B 32
-Page 112: 56 A1 7B B5
-Page 113: D9 54 F6 38
-Page 114: E0 DD 52 8D
-Page 115: 4C 4C 06 9F
-Page 116: 1E 87 D4 48
-Page 117: C7 83 1A 5B
-Page 118: 17 FE E2 4F
-Page 119: 07 28 31 1B
-Page 120: BE 46 9F 53
-Page 121: 13 01 DD 70
-Page 122: 78 D1 78 67
-Page 123: 06 3A 25 B4
-Page 124: D7 4C F3 64
-Page 125: B0 01 C2 D2
-Page 126: 83 A0 98 72
-Page 127: 4D 4B 6C FE
-Page 128: B0 21 B7 F5
-Page 129: 97 14 36 F2
+Page 32: 30 43 A5 08
+Page 33: A2 A2 12 8D
+Page 34: CE B5 C5 5E
+Page 35: D6 36 3F C2
+Page 36: A3 40 04 EE
+Page 37: 74 62 D1 A3
+Page 38: 39 06 C8 9C
+Page 39: BF 6D 97 33
+Page 40: CB 9A B7 78
+Page 41: 04 97 A9 97
+Page 42: A5 42 81 46
+Page 43: 27 98 7F 15
+Page 44: 2F 06 82 71
+Page 45: 90 99 4B 37
+Page 46: B1 A1 CA B7
+Page 47: 27 A6 42 CC
+Page 48: B2 91 E2 92
+Page 49: C1 78 BF C7
+Page 50: 46 AE 20 2D
+Page 51: F2 D1 08 2F
+Page 52: C5 39 3F 8C
+Page 53: 1A 85 70 7B
+Page 54: 9C 28 0B BE
+Page 55: E1 AA CA 2D
+Page 56: 68 EE E1 A1
+Page 57: 7E F6 4C 9D
+Page 58: 3A E7 46 92
+Page 59: 7F B1 43 69
+Page 60: 4A 81 49 D3
+Page 61: 44 39 CE C0
+Page 62: 2D D9 9B C0
+Page 63: 28 FF F8 4C
+Page 64: 23 4F BE 81
+Page 65: 96 59 CE 52
+Page 66: B5 77 02 A5
+Page 67: 46 C1 9C 4F
+Page 68: 1B 6A 44 71
+Page 69: B8 81 1C 63
+Page 70: C0 DF 09 03
+Page 71: 27 0F 65 CF
+Page 72: E2 0B 59 79
+Page 73: 3E B4 F3 D8
+Page 74: C3 99 F7 8F
+Page 75: B6 18 88 7C
+Page 76: B4 3E AB 81
+Page 77: 53 D9 B5 D7
+Page 78: B5 D3 18 2B
+Page 79: 24 F8 8F 4B
+Page 80: B0 88 21 11
+Page 81: 2B 88 DD 61
+Page 82: 76 75 6E C7
+Page 83: 42 68 92 CF
+Page 84: 67 F9 24 35
+Page 85: 5F 57 5E A8
+Page 86: 26 6B 49 0C
+Page 87: E1 19 A3 D7
+Page 88: 07 A7 16 9F
+Page 89: 95 7E 25 B8
+Page 90: FF 20 F5 75
+Page 91: 9A 25 85 0C
+Page 92: ED 2F 7A B6
+Page 93: 68 5D CA 2A
+Page 94: 14 FC 86 5D
+Page 95: 84 53 8A 9B
+Page 96: 3A 1A 15 05
+Page 97: A6 B4 D3 2F
+Page 98: FC 37 E1 D0
+Page 99: 0A 7F 92 DE
+Page 100: E2 15 93 09
+Page 101: 22 98 82 75
+Page 102: 69 C4 7A A5
+Page 103: F2 D3 3B 06
+Page 104: C3 04 B6 9C
+Page 105: 3A 0A 85 12
+Page 106: FC 2B 4A 41
+Page 107: EF 2E 84 EE
+Page 108: 47 C8 5A C1
+Page 109: D9 1C 15 60
+Page 110: 20 AB D6 C5
+Page 111: 5C 5E B6 39
+Page 112: 6E 3D 8C F8
+Page 113: 2D E3 3D 13
+Page 114: ED D7 76 91
+Page 115: 2F 1E F8 76
+Page 116: B7 75 BB 77
+Page 117: CD F9 3B 29
+Page 118: EC 69 C5 2B
+Page 119: E5 77 2E BF
+Page 120: 77 0F 15 17
+Page 121: 20 D6 E4 25
+Page 122: 95 6D 81 AF
+Page 123: E7 C4 C9 F6
+Page 124: AF 3A B2 75
+Page 125: 59 5B 90 9B
+Page 126: 24 1F 3B 6E
+Page 127: 34 78 EB 81
+Page 128: 8B 4F 3E 71
+Page 129: 10 DB 07 55
 Page 130: 01 00 0F BF
 Page 131: 00 00 00 04
 Page 132: 5F 00 00 00
-Page 133: C3 0D B0 2F
+Page 133: 0A 31 0D 79
 Page 134: 80 80 00 00
 Failed authentication attempts: 0
