@@ -5,7 +5,7 @@ Device type: NTAG/Ultralight
 # UID is common for all formats
 UID: 04 87 E2 DB EC 40 80
 # ISO14443-3A specific data
-ATQA: 44 00
+ATQA: 00 44
 SAK: 00
 # NTAG/Ultralight specific data
 Data format version: 2
