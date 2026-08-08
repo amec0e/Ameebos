@@ -24,3 +24,12 @@ Cat_Peach:0002010003A70102
 8-Bit_Mario_Classic_Color:0000000002380602
 8-Bit_Mario_Modern_Color:0000000002390602
 Super_Mario_Cereal:3740000103741402
+Captain-Toad_and_Talking-Flower:000a010004c20102
+Elephant_Mario:0000040004c10102
+Mario_and_Luma:0000050004e90102
+Poplin_and_Prince-Florian:0025010004c30102
+Rosalina_and_Lumas:0004010004ea0102
+Tsumiki_Luigi-Block:0001000404401c02
+Tsumiki_Mario-Block:00000004043f1c02
+Tsumiki_Peach-Block:0002000404411c02
+Tsumiki_Yoshi-Block:0003000404421c02
